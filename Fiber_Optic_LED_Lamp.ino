@@ -7,7 +7,7 @@
 #define LED_PIN 5  //pin the LEDs are connected to
 #define NUM_LEDS 32
 #define BRIGHTNESS 160 //maximum brightness
-#define LED_TYPE    WS2811
+#define LED_TYPE    WS2812B
 #define COLOR_ORDER GRB
 struct CRGB leds[NUM_LEDS];
 #define UPDATES_PER_SECOND 100
